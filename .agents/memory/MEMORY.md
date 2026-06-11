@@ -1,0 +1,1 @@
+- [Jiji-style redesign](jiji-redesign.md) — App uses Jiji.ug-inspired green theme; primary = green, secondary = orange for CTAs.
