@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm --filter @workspace/dukanen run build",
+  "outputDirectory": "artifacts/dukanen/dist",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://your-api-server.replit.app/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
